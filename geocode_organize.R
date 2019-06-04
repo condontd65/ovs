@@ -6,7 +6,7 @@ library(xlsx)
 gs_auth(new_user = TRUE)
 
 # Check available sheets
-gs_ls()
+#gs_ls()
 available <- gs_ls()
 
 # Read in the art extracted spreadsheet
