@@ -7,7 +7,11 @@ gs_auth(new_user = TRUE)
 
 # Check available sheets
 #gs_ls()
+<<<<<<< HEAD
 #available <- gs_ls()
+=======
+available <- gs_ls()
+>>>>>>> ce7099d2a5ab7b92a011c9f99a599f820eb1ea46
 
 # Read in the art extracted spreadsheet
 tav <- gs_title("3_21_2019 NEW _Veteran Xtract_")
